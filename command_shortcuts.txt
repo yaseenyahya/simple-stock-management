@@ -1,0 +1,12 @@
+
+composer install
+composer migrate
+composer db:seed
+
+### to start backend
+cd backend/public
+php -S 127.0.0.1:8080
+
+### for frontend
+cd frontend
+npm run dev
